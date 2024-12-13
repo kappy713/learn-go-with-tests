@@ -5,5 +5,5 @@ test:
 	go test $(shell go list ./...)
 
 # Goファイルをフォーマット
-format:
+fmt:
 	go fmt ./...
